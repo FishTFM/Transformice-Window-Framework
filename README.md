@@ -19,12 +19,12 @@ Examples of availables functions (proto) :
   
   * **Remove a popup (nil in targetPlayer will remove for all) :**
   ``` lua
-  twf.ui.removePopup(int id, string targetPlayer)
+  twf.ui.removePopup(int id, string targetPlayer);
   ```
   
   * **Create a new label :**
   ``` lua
-  twf.ui.createLabel(int id, string text, string targetPlayer, int x, int y)
+  twf.ui.createLabel(int id, string text, string targetPlayer, int x, int y);
   ```
 
 Examples of availables triggers :

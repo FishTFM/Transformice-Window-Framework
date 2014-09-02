@@ -35,6 +35,8 @@ Examples of availables triggers :
  ``` lua
  function eventTextAreaCallback (textAreaId, playerName, callback)
    twf.trigger.popupClose(textAreaId, playerName, callback);
+   
+   -- Your code goes here.
  end
  ```
 

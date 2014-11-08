@@ -6,10 +6,6 @@
 --  @date       21/08/2014
 ----------------------------------
 
-config = {
-    
-};
-
 twf = { -- Start the package.
     ui = {  -- Start the ui part of the Framework.
         
@@ -42,7 +38,7 @@ twf = { -- Start the package.
            ui.addTextArea(9 ..id.. 72 .. 22, "<font color='#000000' size='14'>"..text.."</font>", targetPlayer, x, y - 1, 600, 20, nil, nil, 0.0, true);
            ui.addTextArea(9 ..id.. 72 .. 22, "<font color='#000000' size='14'>"..text.."</font>", targetPlayer, x, y + 1, 600, 20, nil, nil, 0.0, true);
            ui.addTextArea(9 ..id.. 72 .. 21, "<font color='#ffffff' size='14'>"..text.."</font>", targetPlayer, x, y, 600, 20, nil, nil, 0.0, true);
-        end
+        end;
         -- End of labels section.
     },
     trigger = {
@@ -58,7 +54,7 @@ twf = { -- Start the package.
 -- Implementation :
 function eventTextAreaCallback (textAreaId, playerName, callback)
    twf.trigger.popupClose(textAreaId, playerName, callback);
-end
+end;
 
 -- Usable for now :
 buttonsArray = "";

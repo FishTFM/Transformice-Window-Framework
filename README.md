@@ -1,4 +1,4 @@
-![Project Maintened](https://img.shields.io/badge/Project-maintened-green.svg)![version 0.0.1](https://img.shields.io/badge/version-0.0.1-green.svg)
+![Project Maintened](https://img.shields.io/badge/Project-maintened-green.svg)    ![version 0.0.1](https://img.shields.io/badge/version-0.0.1-green.svg)
 
 Transformice-Window-Framework
 =============================
